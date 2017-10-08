@@ -1,0 +1,30 @@
+{
+  "name": "resume-nextjs",
+  "version": "1.0.0",
+  "description": "Resume website with NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nutanek/resume-nextjs.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "NextJS"
+  ],
+  "author": "NutAnek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nutanek/resume-nextjs/issues"
+  },
+  "homepage": "https://github.com/nutanek/resume-nextjs#readme",
+  "dependencies": {
+    "next": "beta",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
