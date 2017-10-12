@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
             <html>
                 <head>
                     <title>Nutttttttttt</title>
-                    <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+                    <link rel="stylesheet" href="/static/css/bulma.css" />
                 </head>
                 <body>
                     {this.props.customValue}
