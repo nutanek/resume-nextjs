@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "export": "next export .",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=1 next build"
   },
   "repository": {
     "type": "git",
@@ -23,8 +25,12 @@
   },
   "homepage": "https://github.com/nutanek/resume-nextjs#readme",
   "dependencies": {
-    "next": "beta",
+    "bootstrap": "4.0.0-beta",
+    "next": "^4.0.1",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-transition-group": "^2.2.1",
+    "reactstrap": "^4.8.0",
+    "webpack-bundle-analyzer": "^2.9.0"
   }
 }
