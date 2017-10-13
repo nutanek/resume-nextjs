@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col } from 'reactstrap'
+import Background from './HeaderBackground';
 
 export default class Header extends React.Component {
     render() {
@@ -30,11 +30,12 @@ export default class Header extends React.Component {
                             </div>
                         </div>
                     </div>
+                    <Background />
                 </div>
                 
                 <style jsx>{`
                     .wrapper {
-                        background: #f5f5f5;
+                        // background: #f5f5f5;
                     }
                     .brace {
                         font-size: 15em;
