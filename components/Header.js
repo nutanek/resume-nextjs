@@ -1,6 +1,6 @@
 import React from 'react'
 import Background from './HeaderBackground';
-import ProfileImage from './ProfileImage';
+import ProfileImage from './HeaderProfile';
 import Title from './HeaderTitle'
 import Button from './HeaderButton'
 

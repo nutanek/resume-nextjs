@@ -1,6 +1,6 @@
 export default () => (
     <figure className="image">
-        <img src="https://www.indytheme.com/images/me.png" />
+        <img src="/static/images/profile.png" />
         <style jsx>{`
             figure {
                 margin: 0 auto;

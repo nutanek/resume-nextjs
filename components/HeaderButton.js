@@ -4,7 +4,7 @@ export default class HeaderButton extends React.Component {
     render() {
         let {title, icon, url} = this.props
         return (
-            <a className="button is-primary is-outlined is-medium" href={url} target="_blank">
+            <a className="button is-primary is-medium" href={url} target="_blank">
                 {title}
                 <style jsx>{`
                     a {
