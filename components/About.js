@@ -42,8 +42,8 @@ export default class About extends React.Component {
                 <Interersts />
                 <style jsx>{`
                     .wrapper {
-                        padding-top: 40px;
-                        padding-bottom: 40px;
+                        padding-top: 50px;
+                        padding-bottom: 50px;
                         background: #34495e;
                         color: #ffffff;
                         font-size: 1.3em;

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default class AboutInterest extends React.Component {
     render() {
-        let items = ['coding', 'sining', 'taking photo', 'reading']
+        let items = ['Coding', 'Sining', 'Taking Photo', 'Reading']
         return (
             <div>
                 <div className="columns topic">
@@ -14,7 +14,7 @@ export default class AboutInterest extends React.Component {
                     <div className="column is-6 is-offset-3 is-8-mobile is-offset-2-mobile">
                         {
                             items.map((item, index) =>
-                                <img 
+                                <img key={index}
                                     src={'/static/images/interest-' + (index+1) + '.svg'} 
                                     title={item} />
                             )
