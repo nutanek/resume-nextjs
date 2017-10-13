@@ -29,6 +29,7 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-particles-js": "^2.0.0",
+    "react-typist": "^1.1.1",
     "webpack-bundle-analyzer": "^2.9.0"
   }
 }

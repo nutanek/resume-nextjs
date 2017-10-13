@@ -1,5 +1,8 @@
 import React from 'react'
 import Background from './HeaderBackground';
+import ProfileImage from './ProfileImage';
+import Title from './HeaderTitle'
+import Button from './HeaderButton'
 
 export default class Header extends React.Component {
     render() {
@@ -7,26 +10,22 @@ export default class Header extends React.Component {
             <section className="hero wrapper is-fullheight has-text-centered">
                 <div className="hero-body">
                     <div className="container">
-                        <div className="columns">
-                            <div className="column brace has-text-right">
-                                &#123;
+                        <div className="columns is-mobile">
+                            <div className="column brace has-text-right">&#123;</div>
+                            <div className="column profile">
+                                <ProfileImage />
                             </div>
-                            <div className="column">
-                                Name
-                            </div>
-                            <div className="column brace has-text-left">
-                                &#125;
-                            </div>
+                            <div className="column brace has-text-left">&#125;</div>
                         </div>
                         <div className="columns">
-                            <div className="column title">
-                                I'm Nuttawut
+                            <div className="column">
+                                <Title />
                             </div>
                         </div>
                         <div className="columns">
                             <div className="column">
-                                <a className="button is-primary">Normal</a>
-                                <a className="button is-primary">Normal</a>
+                                <Button title="My GitHub" url="https://github.com/nutanek" />
+                                <Button title="My Works" url="https://www.indytheme.com" />                                
                             </div>
                         </div>
                     </div>
@@ -40,8 +39,10 @@ export default class Header extends React.Component {
                     .brace {
                         font-size: 15em;
                     }
-                    .title {
-                        font-size: 8em;
+                    .profile {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
                     }
                 `}</style>
             </section>
