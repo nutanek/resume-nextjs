@@ -7,18 +7,40 @@ export default class Header extends React.Component {
             <section className="hero wrapper is-fullheight has-text-centered">
                 <div className="hero-body">
                     <div className="container">
-                        <h1 className="title">
-                            Full Height title
-                        </h1>
-                        <h2 className="subtitle">
-                            Full Height subtitle
-                        </h2>
+                        <div className="columns">
+                            <div className="column brace has-text-right">
+                                &#123;
+                            </div>
+                            <div className="column">
+                                Name
+                            </div>
+                            <div className="column brace has-text-left">
+                                &#125;
+                            </div>
+                        </div>
+                        <div className="columns">
+                            <div className="column title">
+                                I'm Nuttawut
+                            </div>
+                        </div>
+                        <div className="columns">
+                            <div className="column">
+                                <a className="button is-primary">Normal</a>
+                                <a className="button is-primary">Normal</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
                 <style jsx>{`
                     .wrapper {
-                        height: 100vh;
                         background: #f5f5f5;
+                    }
+                    .brace {
+                        font-size: 15em;
+                    }
+                    .title {
+                        font-size: 8em;
                     }
                 `}</style>
             </section>
