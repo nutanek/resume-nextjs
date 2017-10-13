@@ -8,8 +8,9 @@ export default class Title extends React.Component {
                 {title}
                 <style jsx>{`
                     div {
+                        margin-bottom: 30px;
                         color: ${color};
-                        font-size: 3em;
+                        font-size: 2.8em;
                         font-weight: bold;
                         text-transform: uppercase;
                     }
