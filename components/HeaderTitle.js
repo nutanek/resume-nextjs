@@ -6,7 +6,7 @@ const cursor = {
 }
 
 export default () => (
-    <div>
+    <div className="is-hidden-touch">
         <Typist cursor={cursor}>
             I'm <span>Nut</span>tawut
         </Typist>
@@ -17,6 +17,12 @@ export default () => (
             }
             span {
                 color: #c0392b;
+            }
+            @media screen and ( max-height: 690px ) {
+                div {
+                    display: none;
+                    // font-size: 5em;
+                }
             }
         `}</style>
     </div> 

@@ -23,11 +23,7 @@ export default class About extends React.Component {
                     </div>
                 </div>
                 <div className="columns">
-                    <div className="column detail
-                                    is-10 is-offset-1 
-                                    is-6-desktop is-offset-3-desktop
-                                    is-10-mobile is-offset-1-mobile 
-                                    ">
+                    <div className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
                         Hello, my name is <b>Nuttawut Anek</b>. 
                         Now, I work as a Full-stack developer,
                         but I think I prefer <b>front-end</b> because

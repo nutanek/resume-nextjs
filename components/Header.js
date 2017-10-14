@@ -1,21 +1,20 @@
 import React from 'react'
 import Background from './HeaderBackground';
 import ProfileImage from './HeaderProfile';
+import Brace from './HeaderBrace'
 import Title from './HeaderTitle'
 import Button from './HeaderButton'
 
 export default class Header extends React.Component {
     render() {
         return (
-            <section className="hero wrapper is-fullheight has-text-centered">
+            <section className="hero is-fullheight has-text-centered">
                 <div className="hero-body">
                     <div className="container">
                         <div className="columns is-mobile">
-                            <div className="column brace has-text-right">&#123;</div>
-                            <div className="column profile">
-                                <ProfileImage />
-                            </div>
-                            <div className="column brace has-text-left">&#125;</div>
+                            <Brace type="left"/>
+                            <ProfileImage />
+                            <Brace type="right"/>
                         </div>
                         <div className="columns">
                             <div className="column">
@@ -31,20 +30,6 @@ export default class Header extends React.Component {
                     </div>
                     <Background />
                 </div>
-                
-                <style jsx>{`
-                    .wrapper {
-                        // background: #f5f5f5;
-                    }
-                    .brace {
-                        font-size: 15em;
-                    }
-                    .profile {
-                        display: flex;
-                        justify-content: center;
-                        flex-direction: column;
-                    }
-                `}</style>
             </section>
         )
     }
