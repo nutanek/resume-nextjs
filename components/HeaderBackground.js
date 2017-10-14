@@ -11,7 +11,7 @@ export default () => (
                     type: "triangle",
                 },
                 color: {
-                    value: "#7f8c8d"
+                    value: ["#1abc9c","#3498db","#9b59b6","#f1c40f","#e74c3c"]
                 },
                 line_linked: {
                     color: "#FFF",
@@ -23,7 +23,7 @@ export default () => (
                     }
                 },
                 size: {
-                    value: 10,
+                    value: 15,
                     random: true
                 }
             },
