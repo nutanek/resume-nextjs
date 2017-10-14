@@ -5,13 +5,14 @@ const cursor = {
     hideWhenDoneDelay: 0,
 }
 
-export default () => (
+export default ({color}) => (
     <div className="is-hidden-touch">
         <Typist cursor={cursor}>
             I'm <span>Nut</span>tawut
         </Typist>
         <style jsx>{`
             div {
+                color: ${color};
                 font-size: 8em;
                 font-weight: bold;
             }
@@ -21,7 +22,6 @@ export default () => (
             @media screen and ( max-height: 690px ) {
                 div {
                     display: none;
-                    // font-size: 5em;
                 }
             }
         `}</style>

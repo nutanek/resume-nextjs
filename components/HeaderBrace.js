@@ -15,13 +15,14 @@ export default class HeaderBrace extends React.Component {
                 textAlign: 'left'
             }
         }
-        let type = this.props.type
+        let { type, color } = this.props
 
         return (
             <div className={'column is-hidden-mobile has-text-' + item[type].textAlign}>
                 { item[type].text }
                 <style jsx>{`
                     div {
+                        color: ${color};
                         font-size: 15em;
                         -webkit-animation: move 1s;
                         animation: move 1s;
