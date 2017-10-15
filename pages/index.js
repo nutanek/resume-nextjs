@@ -4,6 +4,7 @@ import Header from './../components/Header'
 import About from './../components/About'
 import Experiences from './../components/Experiences'
 import Education from './../components/Education'
+import Skills from './../components/Skills'
 
 export default class Index extends React.Component {
     render() {
@@ -13,6 +14,7 @@ export default class Index extends React.Component {
                <About />
                <Experiences />
                <Education />
+               <Skills />
                <style jsx global>{`
                     body {
                         font-family: 'Questrial', sans-serif;
