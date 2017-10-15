@@ -14,6 +14,11 @@ export default class Title extends React.Component {
                         font-weight: bold;
                         text-transform: uppercase;
                     }
+                    @media screen and ( max-width: 769px ) {
+                        div {
+                            font-size: 2em;
+                        }
+                    }
                 `}</style>
             </div> 
         )
