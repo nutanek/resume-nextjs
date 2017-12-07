@@ -36,15 +36,14 @@ export default class Index extends React.Component {
             )
         } else {
             return (
-                <section class="hero is-light is-fullheight has-text-centered">
-                <div class="hero-body">
-                  <div class="container">
-                    <h1 class="title">Loading...</h1>
+                <section className="hero is-light is-fullheight has-text-centered">
+                <div className="hero-body">
+                  <div className="container">
+                    <h1 className="title">Loading...</h1>
                   </div>
                 </div>
               </section>
             )
         }
-        
     } 
 }
