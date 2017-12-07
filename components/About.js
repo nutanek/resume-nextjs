@@ -18,8 +18,8 @@ export default class About extends React.Component {
                             <dd>+6687-4809909</dd>
                         </dl>
                     </div>
-                    <div className="column">
-
+                    <div className="column has-text-left">
+                        <img src="/static/images/mascot.png" className="mascot" />
                     </div>
                 </div>
                 <div className="columns">
@@ -50,6 +50,10 @@ export default class About extends React.Component {
                     }
                     dl > dd {
                         margin-bottom: 30px;
+                    }
+                    .mascot {
+                        margin-left: 20px;
+                        width: 180px;
                     }
                     .detail {
                         font-size: 0.95em;
