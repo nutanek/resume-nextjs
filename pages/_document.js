@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
         return (
             <html>
                 <head>
-                    <title>Nutttttttttt</title>
+                    <title>Nuttawut's Resume</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" />
                     <link rel="stylesheet" href="/static/css/bulma.css" />
