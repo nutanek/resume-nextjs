@@ -4,6 +4,13 @@ import ProfileImage from './HeaderProfile';
 import Brace from './HeaderBrace'
 import Title from './HeaderTitle'
 import Button from './HeaderButton'
+import Typist from 'react-typist';
+const cursor = {
+    element: '_',
+    hideWhenDone: true,
+    hideWhenDoneDelay: 0,
+}
+
 const themes = {
     light: {
         background: '#f5f5f5',
@@ -43,13 +50,15 @@ export default class Header extends React.Component {
                         </div>
                         <div className="columns">
                             <div className="column">
-                                <Title color={theme.font}/>
+                                
                             </div>
                         </div>
                         <div className="columns">
                             <div className="column">
-                                <Button title="My GitHub" url="https://github.com/nutanek" />
-                                <Button title="My Works" url="https://www.indytheme.com" />                                
+                            <Typist cursor={cursor}>
+                              I'm <span>Ryan</span>Ernst. <br />
+                              UX/UI Developer
+                            </Typist>                               
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ export default class HeaderBrace extends React.Component {
         return (
             <div className="column profile">
                 <figure className="image" onClick={()=>this.props.toggle()}>
-                    <img src="/static/images/profile.png" />
+                    <img src="/static/images/facecircle.png" />
                 </figure>
                 <style jsx>{`
                     .profile {

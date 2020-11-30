@@ -11,11 +11,11 @@ export default class About extends React.Component {
                     <div className="column has-text-right-tablet has-text-center is-12-mobile is-6-desktop">
                         <dl>
                             <dt>FULL NAME</dt>
-                            <dd>Mr. Nuttawut Anek</dd>
+                            <dd>Mr. Ryan Ernst Nyberg</dd>
                             <dt>EMAIL</dt>
-                            <dd>nutcs@hotmail.com</dd>
+                            <dd>ryan@ryanernstnyberg.com</dd>
                             <dt>MOBILE NO.</dt>
-                            <dd>+6687-4809909</dd>
+                            <dd>+49-176-41768411</dd>
                         </dl>
                     </div>
                     <div className="column has-text-left">
@@ -24,14 +24,7 @@ export default class About extends React.Component {
                 </div>
                 <div className="columns">
                     <div className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
-                        Hello, my name is <b>Nuttawut Anek</b>. 
-                        Now, I work as a Full-stack developer,
-                        but I think I prefer <b>front-end</b> because
-                        I like to work with <i>colors</i> and <i>code</i> together.
-                        I'll be so proud when my work is displayed on a screen
-                        and want every one to see it as well.
-                        Moreover, I love learning new skills like <i>ReactJS</i>, <i>AngularJS</i> or <i>VueJS </i> 
-                        because these make me feel so fun every times when I use.
+                    Creative Visionaries come with unconventional resumes and tons of unique experience, making them the perfect people to change up stale conversations, craft unique solutions to problems, and think big picture. I'm driven, think outside the box, and great at solving the unsolvable. These qualities, combined with my diverse experience, make me a valuable asset to any team.
 
                     </div>
                 </div>

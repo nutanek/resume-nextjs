@@ -14,10 +14,6 @@ export default class EducationItem extends React.Component {
                             </h4>
                             { major && <i>Major: {major}</i> }
                         </div>
-                        <div className="column is-3 has-text-right gpa">
-                            <p>GPA</p>
-                            <h4>{gpa}</h4>
-                        </div>
                     </div>
                 </div>
                 

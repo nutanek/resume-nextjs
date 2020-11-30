@@ -22,11 +22,11 @@ export default class Skills extends React.Component {
             },
             {
                 name: 'Back-ends',
-                list: [
+                list: [          
                     { name: 'php', color: '#8993be', value: '70' },           
                     { name: 'nodejs', color: '#81ca2a', value: '70' },
                     { name: 'java', color: '#1e77b7', value: '70' },
-                    { name: 'rails', color: '#e74c3c', value: '60' }
+                    { name: 'nextjs', color: '#1e77b7', value: '70' }
                 ]
             },
             {
@@ -42,9 +42,7 @@ export default class Skills extends React.Component {
                     { name: 'git', color: '#F05032', value: '60' },
                     { name: 'yarn', color: '#2c8ebb', value: '40' },
                     { name: 'npm', color: '#cb3736', value: '55' },
-                    { name: 'webpack', color: '#6dcdff', value: '25' },
-                    { name: 'rundeck', color: '#ff0000', value: '45' },
-                    { name: 'elasticsearch', color: '#18bbb0', value: '40' },
+                    { name: 'webpack', color: '#6dcdff', value: '25' }
                 ]
             } 
         ]

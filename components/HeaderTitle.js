@@ -8,11 +8,11 @@ const cursor = {
 export default ({color}) => (
     <div className="is-hidden-touch">
         <Typist cursor={cursor}>
-            I'm <span>Nut</span>tawut
+            I'm <span>Ryan</span>Ernst
         </Typist>
         <style jsx>{`
             div {
-                color: ${color};
+                color: ${theme.color};
                 font-size: 8em;
                 font-weight: bold;
             }

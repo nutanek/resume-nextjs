@@ -6,30 +6,35 @@ export default class Experiences extends React.Component {
     render() {
         return (
             <section className="hero wrapper has-text-centered">
-                <Title title="Experiences" color='#2c3e50'/>
+                <Title title="Experience" color='white'/>
                 <div className="container">
-                    <Timeline side="left" time="Jun - Dec 2016" color="#e67e22">
-                        <h4 style={{'color': '#e67e22'}}>Thomson Reuters</h4>
+                    <Timeline side="left" time="January - Current" color="#e67e22">
+                        <h4 style={{'color': '#e67e22'}}>Orchard Beach Community Group</h4>
                         <p>
-                            <i className="position">Internship of supporting team</i><br/>
-                            Develope a supporting web application<br/>
-                            using <b>Ruby on Rails</b> and <b>Rundeck</b>
+                            <i className="position">Website Developer</i><br/>
+                            Develop full stack website<br/>
+                            using <b>Next JS</b> React JS <b>and GraphQL</b>
                         </p>
                     </Timeline> 
-                    <Timeline side="right" time="Mar - Oct 2017" color="#3498db">
-                        <h4 style={{'color': '#3498db'}}>Ready Planet</h4>
+                    <Timeline side="right" time="Nov. 2018 - Now" color="#3498db">
+                        <h4 style={{'color': '#3498db'}}>Evil Burrito</h4>
                         <p>
-                            <i className="position">Software Developer based on JavaScript</i><br/>
-                            Develope an instanst mobile application<br/>
-                            using <b>AngularJS</b> and <b>NodeJS</b>
+                            <i className="position">Website Developer<br/>
+                            using <b>HTML5</b> <b>and Bootstrap</b></i>
                         </p>
                     </Timeline> 
                     <Timeline side="left" time="2012 - current" color="#9b59b6">
-                        <h4 style={{'color': '#9b59b6'}}>IndyTheme.com</h4>
+                        <h4 style={{'color': '#9b59b6'}}>Sustainable Hosting</h4>
                         <p>
-                            <i className="position">Owner and Developer</i><br/>
-                            Create and sell Wordpress themes<br/>
-                            at my own website <a href="https://www.indytheme.com/" target="blank">indytheme.com</a>
+                            <i className="position">Backend Developer</i><br/>
+                            Manage webhosting accounts
+                        </p>
+                    </Timeline>
+                    <Timeline side="right" time="Nov. 2008 - 2011" color="green">
+                        <h4 style={{'color': 'green'}}>Encore Nationwide</h4>
+                        <p>
+                            <i className="position">Brand Manager</i><br/>
+                            Marketing and Sales Manager
                         </p>
                     </Timeline> 
                 </div>
@@ -38,7 +43,7 @@ export default class Experiences extends React.Component {
                     .wrapper {
                         padding-top: 50px;
                         padding-bottom: 50px;
-                        background: #bdc3c7;
+                        background: navy;
                         color: #333333;
                         font-size: 1.3em;
                     }
